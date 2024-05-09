@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>produtos</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <div class="caixa">
+        <h1><img src="img.logo"></h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="produtos.html">produtos</a></li>
+                <li><a href="contatos.html">contatos</a></li>
+            </ul>
+        </nav>
+       </div> 
+    </header>
+     <main>
+        <form>
+            <label>Nome completo</label>
+            <input id="nome completo" type="text">
+            <label>Email</label>
+            <input id="email" placeholder="seuemail@email.com" type="email">
+            <label>Telefone</label>
+            <input id="Tefefone" type="tel">
+            
+            <label for="mensagem">Mensagem</label>
+            <textarea cols="70" required rows="10" id="mensagem"></textarea>
+
+            <div>
+           <p>Como prefere nosso contato?</p>
+            <label for="radio-email">Email</label>
+            <input type="radio" name="contato" value="email" id="radio-email">
+
+            <label for="radio_telefone">Telefone</label>
+            <input type="radio" name="contato" value="telefone" id="radio-telefone">
+
+            <label for="radio-whatsapp">Whatsapp</label>
+            <input type="radio" name="contato" value="" id="raio-whatsapp">
+            </div>
+            <label>
+                <input type="checkbox" name="contato" checked id="contato">
+                Gostaria de receber nosso contato?
+            </label>
+            <div>
+                <p>Qual horario prefere ser atendido</p>
+
+            <select>
+                <option>Manhã</option>
+                <option>Tarde</option>
+                <option>Noite</option>
+            
+                
+            </select>
+            
+        </div>
+        <input type="submit" class="enviar" value="Enviar Formulario">
+         
+
+
+        <img src="logo-branco,png">
+        <p>&copy;copyright barbearia desenvolvido por Debora</p>
+
+         </form>
+     </main>
+</body>
+
+</html>
